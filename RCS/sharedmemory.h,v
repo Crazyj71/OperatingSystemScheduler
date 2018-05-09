@@ -1,0 +1,189 @@
+head	1.3;
+access;
+symbols;
+locks
+	o1-wyatt:1.3; strict;
+comment	@ * @;
+
+
+1.3
+date	2018.03.21.20.04.57;	author o1-wyatt;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2018.03.19.20.19.11;	author o1-wyatt;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2018.03.11.00.13.24;	author o1-wyatt;	state Exp;
+branches;
+next	;
+
+
+desc
+@New stuff
+@
+
+
+1.3
+log
+@update
+@
+text
+@#ifndef SHAREDMEMORY_H_
+#define SHAREDMEMORY_H_
+
+//DATA STRUCT FOR MEMORY SHARING
+struct timestruct
+{
+    unsigned int seconds;
+    unsigned int nanoseconds;
+};
+
+//DATA STRUCT FOR MESSAGE QUEUE
+#define MAXSIZE 4096
+typedef struct
+{
+    long mtype;
+    char mtext[MAXSIZE];
+    unsigned int timeToRun;
+    int running;
+    
+} mymsg_t;
+#define MSG sizeof(mymsg_t)
+
+//PROCESS BLOCK STRUCT
+struct processControlBlockStruct
+{
+    int firstrun;
+    int timeLeft;
+    unsigned int UnblockTime;
+    unsigned int timeUsedLast;
+    unsigned int processID;
+    unsigned int priority;
+    struct timestruct timeInSystem;
+};
+#define PBLOCKSIZE sizeof(struct processControlBlock)*20
+
+//SHARED MEMORY STRUCT
+struct sharedMemoryStruct
+{
+    struct processControlBlockStruct processBlock[20];
+    struct timestruct systemTime;
+    unsigned long int blocktime[100000];
+    unsigned long int runtime[100000];
+    unsigned long int waittime[100000];
+};
+#define MEMORYSIZE sizeof(struct sharedMemoryStruct)
+
+typedef struct node
+{
+    int val;
+    struct node *next;
+} node_t;
+
+
+//ENQUEUE AND DEQUEUE FUNCTIONS WERE NOT WRITTEN BY ME, I USED AN ONLINE RESOURCE, I DO NOT CLAIM OWNERSHIP.
+
+void enqueue(node_t **head, int val)
+{
+    node_t *new_node = malloc(sizeof(node_t));
+    if (!new_node) return;
+
+    new_node->val = val;
+    new_node->next = *head;
+
+    *head = new_node;
+}
+
+int dequeue(node_t **head)
+{
+    node_t *current, *prev = NULL;
+    int retval = -1;
+
+    if (*head == NULL) return -1;
+
+    current = *head;
+    while (current->next != NULL)
+    {
+        prev = current;
+        current = current->next;
+    }
+
+    retval = current->val;
+    free(current);
+
+    if (prev)
+        prev->next = NULL;
+    else
+        *head = NULL;
+
+    return retval;
+}
+
+void print_list(node_t *head)
+{
+    node_t *current = head;
+
+    while (current != NULL)
+    {
+        printf("Process %d\n", current->val);
+        current = current->next;
+    }
+}
+
+
+#endif
+@
+
+
+1.2
+log
+@update
+@
+text
+@d41 3
+d52 3
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 98
+a98 30
+#ifndef SHAREDMEMORY_H_
+#define SHAREDMEMORY_H_
+
+//DATA STRUCT FOR MEMORY SHARING
+struct timestruct{
+unsigned int seconds;
+unsigned int nanoseconds;
+};
+
+//DATA STRUCT FOR MESSAGE QUEUE
+#define MAXSIZE 4096
+typedef struct {
+long mtype;
+char mtext[MAXSIZE];
+ } mymsg_t;
+
+//PROCESS BLOCK STRUCT
+struct processControlBlockStruct{
+unsigned int timeLeft;
+unsigned int timeUsedLast;
+unsigned int processID;
+unsigned int priority;
+struct timestruct timeInSystem;
+};
+#define PBLOCKSIZE sizeof(struct processControlBlock)*20
+
+
+
+
+#endif
+@

@@ -1,0 +1,53 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2018.03.19.20.15.25;	author o1-wyatt;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2018.03.10.23.09.42;	author o1-wyatt;	state Exp;
+branches;
+next	;
+
+
+desc
+@Make created/
+@
+
+
+1.2
+log
+@Edited
+@
+text
+@C=gcc
+CFLAGS= -Wall -std=c99
+SOURCE1=oss.c
+SOURCE2=user.c
+TARGET1=oss
+TARGET2=user
+TARGETS= oss user
+
+all:
+	$(C) $(CFLAGS) $(SOURCE1) -o $(TARGET1)
+	$(C) $(CFLAGS) $(SOURCE2) -o $(TARGET2)
+
+clean:
+	rm $(TARGETS)
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 14
+@

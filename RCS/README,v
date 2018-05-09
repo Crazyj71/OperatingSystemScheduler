@@ -1,0 +1,62 @@
+head	1.2;
+access;
+symbols;
+locks
+	o1-wyatt:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2018.03.21.20.34.46;	author o1-wyatt;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2018.03.10.23.10.23;	author o1-wyatt;	state Exp;
+branches;
+next	;
+
+
+desc
+@REAd me created
+@
+
+
+1.2
+log
+@README UPDATE
+@
+text
+@JAMIE WYATT
+ASSIGNMENT 4
+OPERATING SYSTEMS
+HAUSCHILD
+
+HOW TO RUN:
+
+: make
+: ./oss -d
+
+FOR QUICKER OUTPUT:
+
+: ./oss -d > outputfile
+
+Master creates a process control table with user processes
+Schedules the user process over and over, logging the data 
+Creates a round robin queue. making some user processes alternate in it
+Keeps output statistics like throughput, idle time, etc
+Implements additional user classes and the multi-level feedback 
+queue.
+Adds the chance for user processes to be blocked on an event, 
+keeps track of statistics on this 
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d6 1
+d8 15
+@

@@ -1,0 +1,22 @@
+JAMIE WYATT
+ASSIGNMENT 4
+OPERATING SYSTEMS
+HAUSCHILD
+
+HOW TO RUN:
+
+: make
+: ./oss -d
+
+FOR QUICKER OUTPUT:
+
+: ./oss -d > outputfile
+
+Master creates a process control table with user processes
+Schedules the user process over and over, logging the data 
+Creates a round robin queue. making some user processes alternate in it
+Keeps output statistics like throughput, idle time, etc
+Implements additional user classes and the multi-level feedback 
+queue.
+Adds the chance for user processes to be blocked on an event, 
+keeps track of statistics on this 

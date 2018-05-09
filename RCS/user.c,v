@@ -1,0 +1,431 @@
+head	1.4;
+access;
+symbols;
+locks
+	o1-wyatt:1.4; strict;
+comment	@ * @;
+
+
+1.4
+date	2018.03.21.20.04.39;	author o1-wyatt;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2018.03.19.20.18.53;	author o1-wyatt;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2018.03.10.23.17.12;	author o1-wyatt;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2018.03.10.23.11.31;	author o1-wyatt;	state Exp;
+branches;
+next	;
+
+
+desc
+@USER PROCESS created/
+@
+
+
+1.4
+log
+@Updata
+@
+text
+@//SLAVE PROGRAM
+#define _SVID_SOURCE
+#define _POSIX_SOURCE
+#define _GNU_SOURCE
+#include <string.h>
+#include <errno.h>
+#include <sys/wait.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <getopt.h>
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include <sys/mman.h>
+#include <signal.h>
+#include <sys/msg.h>
+#include <time.h>
+#include "sharedmemory.h"
+
+//GLOBALS
+int k;
+int run;
+int shm_id;
+int msqid;
+
+
+//SIGNAL HANDLER
+void HANDLER(int i)
+{
+    printf("PROCESS %d Died in Action\n", k);
+
+  msgctl(msqid, IPC_RMID, NULL);          //FREE SHARED MESSAGE QUEUE
+        shmctl(shm_id, IPC_RMID, NULL);         //FREE SHARED MEMORY DATA
+
+    exit(0);
+
+    run=1;
+
+}
+
+////////////////////////////////////////MAIN FUNCTION
+int main(int argc, char *argv[])
+{
+
+    printf("SLAVE EXECUTED\n");
+
+//DEFINE GLOBAL VALUES
+    run=0;
+    k = atoi(argv[1]);
+
+    char filename[20];
+    memcpy(filename,(argv[3]), 19);
+
+//SET UP SIGNAL HANDLING
+    while(run==0)
+    {
+        signal(SIGINT, HANDLER);
+
+//SHARED MEMORY VARIABLES
+        key_t           mem_key;
+        struct sharedMemoryStruct     *mem;
+
+//PREPARE IDENTIFIERS
+        mem_key = ftok("a", 1);
+        shm_id = shmget(mem_key, sizeof(struct sharedMemoryStruct), 0666);
+        if (shm_id < 0)
+        {
+            perror("shmget");
+            exit(1);
+        }
+
+//ATTACH TO DATA STRUCT
+        mem = (struct sharedMemoryStruct *) shmat(shm_id, NULL, 0);
+        if ((long) mem == -1)
+        {
+            perror("shmat");
+            exit(1);
+        }
+
+//INITIALIZE MESSAGE QUEUE FOR CRITICALS
+        key_t key; /* key to be passed to msgget() */
+//int msgflg; /* msgflg to be passed to msgget() */
+        mymsg_t *message;
+        message = (mymsg_t *)malloc(sizeof(mymsg_t));
+        mymsg_t *message2;
+        message2 = (mymsg_t *)malloc(sizeof(mymsg_t));
+	key=ftok("/b",1);		//MAKE A KEY
+        message->mtype=k+1;
+        message2->mtype=k+21;
+	msqid = msgget(key, 0666);	//CREATE ID
+
+//MESSAGE QUEUE SUCCESS
+        printf("SLAVE ATTACHED TO MESSAGE QUEUE 1\n");
+	
+	unsigned long int starttime= mem->systemTime.seconds*1000000000 + mem->systemTime.nanoseconds;
+	unsigned long int waittime= mem->systemTime.seconds*1000000000 + mem->systemTime.nanoseconds;
+	unsigned long int blocktime= mem->systemTime.seconds*1000000000 + mem->systemTime.nanoseconds;
+	int blockflag=0;	
+
+	srand(time(NULL)*k);
+	int terminateThreshold = 10;
+	while(1)
+	{
+	fflush(stdout);
+	int terminate = rand()%1000 + 1;
+	msgrcv(msqid, message, MSG, k+1, 0);
+
+	waittime=(mem->systemTime.seconds*1000000000 + mem->systemTime.nanoseconds) - waittime;
+	for(int t=0; t<100000; t++){
+        if(mem->waittime[t]==0){
+        mem->waittime[t]= waittime; break;}}
+	waittime= mem->systemTime.seconds*1000000000 + mem->systemTime.nanoseconds;
+
+	if(blockflag==1){blockflag=0;
+	blocktime=(mem->systemTime.seconds*1000000000 + mem->systemTime.nanoseconds) - blocktime;
+	for(int t=0; t<100000; t++){
+        if(mem->blocktime[t]==0){
+        mem->blocktime[t]= blocktime; break;}
+	}
+	}
+
+        printf("Context Switched to Process %d\n", k);
+	if(terminate<=terminateThreshold || message->running==0)
+	{//TERMINATED
+	int timeRan = rand()%(message->timeToRun)+100;
+	message2->timeToRun = timeRan;
+	message2->running = 0;
+	msgsnd(msqid, message2, MSG, IPC_NOWAIT);
+	if(message->running==0)
+	printf("Process %d Terminated by Operating System\n", k);
+	else printf("Process %d Terminated on its own\n", k);
+
+	unsigned long int endtime = (mem->systemTime.seconds*1000000000 + mem->systemTime.nanoseconds) - starttime;
+	
+	for(int t=0; t<100000; t++){
+	if(mem->runtime[t]==0){
+	mem->runtime[t]= endtime; break;}
+
+	}
+	return 0;
+	}
+	else
+	{
+	int BlockedThreshold=5;
+	int Blocked = rand()%100+1;
+	if(Blocked<BlockedThreshold){//Do blocked Stuff
+	mem->processBlock[k].UnblockTime += mem->systemTime.nanoseconds + rand()%1000000;
+	int timeRan = rand()%(message->timeToRun)+100;
+	message2->timeToRun = timeRan;
+	message2->running = 2;//blocked code
+
+	blockflag=1;
+	blocktime= mem->systemTime.seconds*1000000000 + mem->systemTime.nanoseconds;
+
+	msgsnd(msqid, message2, MSG, IPC_NOWAIT);
+	
+
+	}else{//Ran Normally
+	message2->timeToRun = message->timeToRun;
+	message2->running = 1;
+	printf("Process %d ran as scheduled\n",k);
+	msgsnd(msqid, message2, MSG, IPC_NOWAIT);
+	}
+	}
+	
+	}//while(1)
+    }//whilerun
+    return 0;
+}//main
+@
+
+
+1.3
+log
+@Update
+@
+text
+@d96 5
+d102 1
+a102 1
+	int terminateThreshold = 5;
+d106 1
+a106 1
+	int terminate = rand()%10000 + 1;
+d108 15
+d133 8
+d145 1
+a145 1
+	int BlockedThreshold=2;
+d148 1
+a148 2
+	mem->processBlock[k].UnblockTime += 
+mem->systemTime.nanoseconds + 50000;
+d152 4
+d158 1
+@
+
+
+1.2
+log
+@old stuff imported
+@
+text
+@d1 138
+a138 174
+//SLAVE PROGRAM
+#define _SVID_SOURCE
+#define _POSIX_SOURCE
+#define _GNU_SOURCE
+#include <string.h>
+#include <errno.h>
+#include <sys/wait.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <getopt.h>
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include <sys/mman.h>
+#include <signal.h>
+#include <sys/msg.h>
+#include <time.h>
+
+//GLOBALS
+int i;
+int run;
+
+//DATA STRUCT FOR MEMORY SHARING
+struct data{
+int seconds;
+int nanoseconds;
+};
+
+//DATA STRUCT FOR MESSAGE QUEUE
+#define MAXSIZE 4096
+typedef struct {
+long mtype;
+char mtext[MAXSIZE];
+ } mymsg_t;
+
+//SIGNAL HANDLER
+void HANDLER(int i){
+signal(i,SIG_IGN);
+printf("User exit\n");
+exit(1);
+run=1;
+}
+
+////////////////////////////////////////MAIN FUNCTION
+int main(int argc, char *argv[]){
+
+printf("SLAVE EXECUTED\n");
+
+//DEFINE GLOBAL VALUES
+run=0;
+i = atoi(argv[1]);
+
+
+char filename[20];
+memcpy(filename,(argv[3]), 19);
+
+//SET UP SIGNAL HANDLING
+while(run==0){
+signal(SIGINT, HANDLER);
+
+//SHARED MEMORY VARIABLES
+int             shm_id;
+key_t           mem_key;
+struct data     *mem;
+
+//PREPARE IDENTIFIERS
+mem_key = ftok("a", 1);
+shm_id = shmget(mem_key, sizeof(struct data), 0666);
+if (shm_id < 0) {
+     perror("shmget");
+     exit(1);
+}
+
+//ATTACH TO DATA STRUCT
+mem = (struct data *) shmat(shm_id, NULL, 0);
+if ((long) mem == -1) {
+     perror("shmat");
+     exit(1);
+}
+
+//INITIALIZE MESSAGE QUEUE FOR CRITICALS
+key_t key; /* key to be passed to msgget() */
+//int msgflg; /* msgflg to be passed to msgget() */
+int msqid; /* return value from msgget() */
+mymsg_t *message1;
+message1 = (mymsg_t *)malloc(MAXSIZE + sizeof(long));
+mymsg_t *message2;					//GENERATE MESSAGE FOR CRITICALS AND MESSAGE FOR LOGFILE
+message2 = ( mymsg_t *) malloc(MAXSIZE + sizeof(long));
+key=ftok("/b",1);					//MAKE A KEY
+message1->mtype=1;
+message2->mtype=2;		//MAKE UNIQUE MESSAGE TYPES
+msqid = msgget(key, 0666);	//CREATE ID
+
+//MESSAGE QUEUE SUCCESS
+printf("SLAVE ATTACHED TO MESSAGE QUEUE 1\n");
+
+
+int myseconds; //Time local to each process
+
+srand(time(NULL)*i);
+myseconds=rand()%2000000000 + 1; //set equal to random number of ns
+int age = myseconds; //hold the original age before we start subtracting
+while(1){
+	printf("%d trying to read.\n", getpid());
+	msgrcv(msqid, message1, MAXSIZE, 1, 0);		//receive type 1
+	printf("message read\n");
+	int r; 				//r increments for one round
+	r = rand()%5000000 +1; 
+	if((mem->nanoseconds+r)>1000000000){	//if 1billion ns pass
+		mem->seconds++;			//set to 1 second
+		mem->nanoseconds = (mem->nanoseconds+r)%1000000000;
+	}
+	if((myseconds-r)<0){			//if slave time runs out
+			mem->nanoseconds +=myseconds; //only increment
+			myseconds=0;			//by time left
+			printf("TIMED OUT\n");
+
+			char endstring[300]="";
+			char spid[20];
+			int pid = getpid();
+			char stime[20];
+			int time = mem->seconds;	//generate msg
+			char stimen[20];		//to send oss
+			int timen = mem->nanoseconds;
+			char send[20];
+			int end = myseconds;
+			char sage[20];
+
+			printf("Vars delcared\n");
+			
+			sprintf(spid, "%d", pid);
+			sprintf(stime, "%d", time);
+			sprintf(stimen, "%d", timen);
+			sprintf(send, "%d", end);
+			sprintf(sage, "%d", age);
+
+			 printf("VARS MADE INTO STRINGS\n");
+
+                        strcat(endstring, "ENDING PID: ");
+			strcat(endstring, spid);
+                        strcat(endstring, " at time ");
+                        strcat(endstring, stime);
+                        strcat(endstring, "sec ");
+			strcat(endstring, stimen);
+			strcat(endstring, "ns because it reached ");
+                        strcat(endstring, send);
+                        strcat(endstring, "ns and lived for ");
+                        strcat(endstring, sage);
+                        strcat(endstring, "ns\n");
+			fflush(stdout);
+			
+			printf("SENDING %s\n", endstring);
+			fflush(stdout);
+			//Message created, and sending
+			memcpy(message2->mtext, endstring, sizeof(endstring));			
+			msgsnd(msqid, message2, 400, 0);
+			free(message1);
+		        printf("TIME: %ds %dns %dnsLEFT\n", mem->seconds, mem->nanoseconds, myseconds);
+			
+			return 0;
+
+	}else{			//else add the random time
+	mem->nanoseconds += r;
+	myseconds-=r;
+	printf("TIME: %ds %dns %dnsLEFT\n", mem->seconds, mem->nanoseconds, myseconds);
+	msgsnd(msqid, message1, MAXSIZE, 0); //Send msg to criticals
+	printf("message sent\n");
+}//else
+}//while(1)
+}//whilerun
+
+return 0;
+}//main
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 174
+a174 1
+//USER PROCESS
+@

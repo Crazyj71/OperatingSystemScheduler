@@ -1,0 +1,1020 @@
+QUEUE:  Putting Process 0 into Queue 1
+CREATE: Generating process with PID 0 and putting it in queue 1 at time 0:0
+RUN:    Dispatching process with PID 0 from queue 1 at time 0:9162, this dispatch was 9162 nanoseconds
+QUEUE:  Putting Process 0 into Queue 2
+RUN:    Dispatching process with PID 0 from queue 2 at time 0:2011738, this dispatch was 2576 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:6019094, this dispatch was 7356 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:14023555, this dispatch was 4461 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:22028604, this dispatch was 5049 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:30030504, this dispatch was 1900 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:38031385, this dispatch was 881 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:46040040, this dispatch was 8655 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:54042767, this dispatch was 2727 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:62050908, this dispatch was 8141 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:70060708, this dispatch was 9800 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:78068287, this dispatch was 7579 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:86070614, this dispatch was 2327 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:94076358, this dispatch was 5744 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:102077401, this dispatch was 1043 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:110077627, this dispatch was 226 nanoseconds
+QUEUE:  Putting Process 0 into Queue 4(BLOCKED)
+UNBLK:  Process 0 removed from the blocked queue(UNBLOCKED)
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:113803004, this dispatch was 2219 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:121811515, this dispatch was 8511 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:129820070, this dispatch was 8555 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:137825945, this dispatch was 5875 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:145828390, this dispatch was 2445 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:153835708, this dispatch was 7318 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:161844228, this dispatch was 8520 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:169849896, this dispatch was 5668 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:177854041, this dispatch was 4145 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:185854912, this dispatch was 871 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:193863050, this dispatch was 8138 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:201867896, this dispatch was 4846 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:209869061, this dispatch was 1165 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:217870677, this dispatch was 1616 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:225871870, this dispatch was 1193 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:233878450, this dispatch was 6580 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:241878895, this dispatch was 445 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:249883697, this dispatch was 4802 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:257884638, this dispatch was 941 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:265886384, this dispatch was 1746 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:273892986, this dispatch was 6602 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:281901061, this dispatch was 8075 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:289907714, this dispatch was 6653 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:297913295, this dispatch was 5581 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+QUEUE:  Putting Process 1 into Queue 1
+CREATE: Generating process with PID 1 and putting it in queue 1 at time 0:305913295
+RUN:    Dispatching process with PID 1 from queue 1 at time 0:305922457, this dispatch was 9162 nanoseconds
+QUEUE:  Putting Process 1 into Queue 2
+RUN:    Dispatching process with PID 1 from queue 2 at time 0:307925033, this dispatch was 2576 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:311932389, this dispatch was 7356 nanoseconds
+END:    Process 0 ended after running for 0:305686348
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:311900040, this dispatch was 4461 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:319905089, this dispatch was 5049 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:327906989, this dispatch was 1900 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:335907870, this dispatch was 881 nanoseconds
+QUEUE:  Putting Process 1 into Queue 4(BLOCKED)
+UNBLK:  Process 1 removed from the blocked queue(UNBLOCKED)
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:341808852, this dispatch was 8655 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:349811579, this dispatch was 2727 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:357819720, this dispatch was 8141 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:365829520, this dispatch was 9800 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:373837099, this dispatch was 7579 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:381839426, this dispatch was 2327 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:389845170, this dispatch was 5744 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:397846213, this dispatch was 1043 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:405846439, this dispatch was 226 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:413848658, this dispatch was 2219 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:421857169, this dispatch was 8511 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:429865724, this dispatch was 8555 nanoseconds
+QUEUE:  Putting Process 1 into Queue 4(BLOCKED)
+QUEUE:  Putting Process 0 into Queue 1
+CREATE: Generating process with PID 0 and putting it in queue 1 at time 0:433472377
+RUN:    Dispatching process with PID 0 from queue 1 at time 0:433481539, this dispatch was 9162 nanoseconds
+QUEUE:  Putting Process 0 into Queue 2
+RUN:    Dispatching process with PID 0 from queue 2 at time 0:435484115, this dispatch was 2576 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:439491471, this dispatch was 7356 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:447495932, this dispatch was 4461 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:455500981, this dispatch was 5049 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:463502881, this dispatch was 1900 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:471503762, this dispatch was 881 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:479512417, this dispatch was 8655 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:487515144, this dispatch was 2727 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:495523285, this dispatch was 8141 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:503533085, this dispatch was 9800 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:511540664, this dispatch was 7579 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:519542991, this dispatch was 2327 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:527548735, this dispatch was 5744 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:535549778, this dispatch was 1043 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:543550004, this dispatch was 226 nanoseconds
+QUEUE:  Putting Process 0 into Queue 4(BLOCKED)
+QUEUE:  Putting Process 2 into Queue 0
+CREATE: Generating process with PID 2 and putting it in queue 0 at time 0:547273162
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:547282324, this dispatch was 9162 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:548284900, this dispatch was 2576 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:549292256, this dispatch was 7356 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:550296717, this dispatch was 4461 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:551301766, this dispatch was 5049 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:552303666, this dispatch was 1900 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:553304547, this dispatch was 881 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:554313202, this dispatch was 8655 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:555315929, this dispatch was 2727 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:556324070, this dispatch was 8141 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:557333870, this dispatch was 9800 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:558341449, this dispatch was 7579 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:559343776, this dispatch was 2327 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:560349520, this dispatch was 5744 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:561350563, this dispatch was 1043 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:561407721, this dispatch was 226 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:562409940, this dispatch was 2219 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:563418451, this dispatch was 8511 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:564427006, this dispatch was 8555 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:565432881, this dispatch was 5875 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:566435326, this dispatch was 2445 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:567442644, this dispatch was 7318 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:568451164, this dispatch was 8520 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:569456832, this dispatch was 5668 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:570460977, this dispatch was 4145 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:571461848, this dispatch was 871 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:572469986, this dispatch was 8138 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:573474832, this dispatch was 4846 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:574475997, this dispatch was 1165 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:575477613, this dispatch was 1616 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:576478806, this dispatch was 1193 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:577485386, this dispatch was 6580 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:578485831, this dispatch was 445 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:579490633, this dispatch was 4802 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 0:580491574, this dispatch was 941 nanoseconds
+END:    Process 2 ended after running for 0:305686348
+UNBLK:  Process 1 removed from the blocked queue(UNBLOCKED)
+RUN:    Dispatching process with PID 1 from queue 1 at time 0:853122736, this dispatch was 1746 nanoseconds
+QUEUE:  Putting Process 1 into Queue 2
+UNBLK:  Process 0 removed from the blocked queue(UNBLOCKED)
+RUN:    Dispatching process with PID 0 from queue 1 at time 0:855129338, this dispatch was 6602 nanoseconds
+QUEUE:  Putting Process 0 into Queue 2
+RUN:    Dispatching process with PID 1 from queue 2 at time 0:857137413, this dispatch was 8075 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 2 at time 0:861144066, this dispatch was 6653 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:865149647, this dispatch was 5581 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:873155763, this dispatch was 6116 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:881162116, this dispatch was 6353 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:889165176, this dispatch was 3060 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:897169871, this dispatch was 4695 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:905171868, this dispatch was 1997 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:913175871, this dispatch was 4003 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:921180692, this dispatch was 4821 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:929181160, this dispatch was 468 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:937189926, this dispatch was 8766 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:945199555, this dispatch was 9629 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:953205798, this dispatch was 6243 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:961206909, this dispatch was 1111 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:969213756, this dispatch was 6847 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:977218419, this dispatch was 4663 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:985225098, this dispatch was 6679 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:993232343, this dispatch was 7245 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:1001234129, this dispatch was 1786 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:1009235198, this dispatch was 1069 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 0:1017237189, this dispatch was 1991 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 0:1025246393, this dispatch was 9204 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+QUEUE:  Putting Process 2 into Queue 0
+CREATE: Generating process with PID 2 and putting it in queue 0 at time 0:1033246393
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:33255555, this dispatch was 9162 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:34258131, this dispatch was 2576 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:35265487, this dispatch was 7356 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:36269948, this dispatch was 4461 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:37274997, this dispatch was 5049 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:38276897, this dispatch was 1900 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:39277778, this dispatch was 881 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:40286433, this dispatch was 8655 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:41289160, this dispatch was 2727 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:42297301, this dispatch was 8141 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:43307101, this dispatch was 9800 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:44314680, this dispatch was 7579 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:45317007, this dispatch was 2327 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:46322751, this dispatch was 5744 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:47323794, this dispatch was 1043 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:47380952, this dispatch was 226 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:48383171, this dispatch was 2219 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:49391682, this dispatch was 8511 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:50400237, this dispatch was 8555 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:51406112, this dispatch was 5875 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:52408557, this dispatch was 2445 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:53415875, this dispatch was 7318 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:54424395, this dispatch was 8520 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:55430063, this dispatch was 5668 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:56434208, this dispatch was 4145 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:57435079, this dispatch was 871 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:58443217, this dispatch was 8138 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:59448063, this dispatch was 4846 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:60449228, this dispatch was 1165 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:61450844, this dispatch was 1616 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:62452037, this dispatch was 1193 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:63458617, this dispatch was 6580 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:64459062, this dispatch was 445 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:65463864, this dispatch was 4802 nanoseconds
+QUEUE:  Putting Process 2 into Queue 0
+RUN:    Dispatching process with PID 2 from queue 0 at time 1:66464805, this dispatch was 941 nanoseconds
+END:    Process 2 ended after running for 0:305686348
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:339095967, this dispatch was 1746 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 1:347102569, this dispatch was 6602 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:355110644, this dispatch was 8075 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 1:363117297, this dispatch was 6653 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:371122878, this dispatch was 5581 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 1:379128994, this dispatch was 6116 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:387135347, this dispatch was 6353 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 1:395138407, this dispatch was 3060 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:403143102, this dispatch was 4695 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 1:411145099, this dispatch was 1997 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:419149102, this dispatch was 4003 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 1:427153923, this dispatch was 4821 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:435154391, this dispatch was 468 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 1:443163157, this dispatch was 8766 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:451172786, this dispatch was 9629 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 1:459179029, this dispatch was 6243 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:467180140, this dispatch was 1111 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 1:475186987, this dispatch was 6847 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:483191650, this dispatch was 4663 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 1:491198329, this dispatch was 6679 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:499205574, this dispatch was 7245 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 1:507207360, this dispatch was 1786 nanoseconds
+QUEUE:  Putting Process 1 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:515208429, this dispatch was 1069 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 1 from queue 3 at time 1:523210420, this dispatch was 1991 nanoseconds
+END:    Process 1 ended after running for 0:305686348
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:519406992, this dispatch was 9204 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:527415929, this dispatch was 8937 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:535425366, this dispatch was 9437 nanoseconds
+END:    Process 0 ended after running for 0:305686348
+QUEUE:  Putting Process 0 into Queue 1
+CREATE: Generating process with PID 0 and putting it in queue 1 at time 1:529388556
+RUN:    Dispatching process with PID 0 from queue 1 at time 1:529397718, this dispatch was 9162 nanoseconds
+QUEUE:  Putting Process 0 into Queue 2
+RUN:    Dispatching process with PID 0 from queue 2 at time 1:531400294, this dispatch was 2576 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:535407650, this dispatch was 7356 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:543412111, this dispatch was 4461 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:551417160, this dispatch was 5049 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:559419060, this dispatch was 1900 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:567419941, this dispatch was 881 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:575428596, this dispatch was 8655 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:583431323, this dispatch was 2727 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:591439464, this dispatch was 8141 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:599449264, this dispatch was 9800 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:607456843, this dispatch was 7579 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:615459170, this dispatch was 2327 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:623464914, this dispatch was 5744 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:631465957, this dispatch was 1043 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:639466183, this dispatch was 226 nanoseconds
+QUEUE:  Putting Process 0 into Queue 4(BLOCKED)
+QUEUE:  Putting Process 1 into Queue 0
+CREATE: Generating process with PID 1 and putting it in queue 0 at time 1:643189341
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:643198276, this dispatch was 8935 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:644202780, this dispatch was 4504 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:644755374, this dispatch was 8101 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:645757880, this dispatch was 2506 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:646762373, this dispatch was 4493 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:647766608, this dispatch was 4235 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:648767670, this dispatch was 1062 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:649777748, this dispatch was 10078 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:650786935, this dispatch was 9187 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:651790285, this dispatch was 3350 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:651917285, this dispatch was 6159 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:652927044, this dispatch was 9759 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:653928164, this dispatch was 1120 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:654937328, this dispatch was 9164 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:655940019, this dispatch was 2691 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:656946296, this dispatch was 6277 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:657947932, this dispatch was 1636 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:658956876, this dispatch was 8944 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:659960358, this dispatch was 3482 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:660015473, this dispatch was 7180 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:661018575, this dispatch was 3102 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:662024011, this dispatch was 5436 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:663024852, this dispatch was 841 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:664025463, this dispatch was 611 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:665026491, this dispatch was 1028 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:666028309, this dispatch was 1818 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:667030187, this dispatch was 1878 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:668031581, this dispatch was 1394 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:669041577, this dispatch was 9996 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:670045619, this dispatch was 4042 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:671053615, this dispatch was 7996 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:672062446, this dispatch was 8831 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:673070892, this dispatch was 8446 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:674073241, this dispatch was 2349 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:674486955, this dispatch was 1238 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:675496147, this dispatch was 9192 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:676502632, this dispatch was 6485 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:677511184, this dispatch was 8552 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:678520354, this dispatch was 9170 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:679522278, this dispatch was 1924 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:680524080, this dispatch was 1802 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:681529309, this dispatch was 5229 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:682537244, this dispatch was 7935 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:683546418, this dispatch was 9174 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:684547063, this dispatch was 645 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:685553941, this dispatch was 6878 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:686559293, this dispatch was 5352 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:687561474, this dispatch was 2181 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:688567196, this dispatch was 5722 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:689575930, this dispatch was 8734 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:690581544, this dispatch was 5614 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:691590269, this dispatch was 8725 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:692590691, this dispatch was 422 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:693593398, this dispatch was 2707 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:694598986, this dispatch was 5588 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:695606688, this dispatch was 7702 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:696611113, this dispatch was 4425 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:697618479, this dispatch was 7366 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:698627476, this dispatch was 8997 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:699631797, this dispatch was 4321 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:700633105, this dispatch was 1308 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:701636350, this dispatch was 3245 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:702645755, this dispatch was 9405 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:703651761, this dispatch was 6006 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:704657255, this dispatch was 5494 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:705657798, this dispatch was 543 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:706659248, this dispatch was 1450 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:707667479, this dispatch was 8231 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:708672826, this dispatch was 5347 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:709673346, this dispatch was 520 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:710679754, this dispatch was 6408 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:711686804, this dispatch was 7050 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:712688805, this dispatch was 2001 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:713693048, this dispatch was 4243 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:714695524, this dispatch was 2476 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:715698070, this dispatch was 2546 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:716699092, this dispatch was 1022 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:717703172, this dispatch was 4080 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:718704152, this dispatch was 980 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:719707148, this dispatch was 2996 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:720709862, this dispatch was 2714 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:721469585, this dispatch was 2846 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:722471206, this dispatch was 1621 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:723480595, this dispatch was 9389 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:724482400, this dispatch was 1805 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:725485861, this dispatch was 3461 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:726492852, this dispatch was 6991 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:727498982, this dispatch was 6130 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:728499709, this dispatch was 727 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:729501949, this dispatch was 2240 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:730508653, this dispatch was 6704 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:731516940, this dispatch was 8287 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:732518677, this dispatch was 1737 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:733524686, this dispatch was 6009 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:734525232, this dispatch was 546 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:735532364, this dispatch was 7132 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:736535168, this dispatch was 2804 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:737537064, this dispatch was 1896 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:738343519, this dispatch was 1615 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:739347922, this dispatch was 4403 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:740356591, this dispatch was 8669 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:741364514, this dispatch was 7923 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:742372219, this dispatch was 7705 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:743372789, this dispatch was 570 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:744381208, this dispatch was 8419 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:745391290, this dispatch was 10082 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:746400659, this dispatch was 9369 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:747410000, this dispatch was 9341 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:748414062, this dispatch was 4062 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:749420663, this dispatch was 6601 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:750429252, this dispatch was 8589 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:751432281, this dispatch was 3029 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:752441628, this dispatch was 9347 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:753448091, this dispatch was 6463 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:754450409, this dispatch was 2318 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:755451461, this dispatch was 1052 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:756461285, this dispatch was 9824 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:757466846, this dispatch was 5561 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:758470280, this dispatch was 3434 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:759470732, this dispatch was 452 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:760474786, this dispatch was 4054 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:761481176, this dispatch was 6390 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:762486167, this dispatch was 4991 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:763491858, this dispatch was 5691 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:764500509, this dispatch was 8651 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:765505946, this dispatch was 5437 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:766515021, this dispatch was 9075 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:767522728, this dispatch was 7707 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:768529962, this dispatch was 7234 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:769530553, this dispatch was 591 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:770532564, this dispatch was 2011 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:771538367, this dispatch was 5803 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:772543133, this dispatch was 4766 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:773552749, this dispatch was 9616 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:774555374, this dispatch was 2625 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:775558459, this dispatch was 3085 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:776568057, this dispatch was 9598 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:776607475, this dispatch was 1894 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:777616153, this dispatch was 8678 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:778626066, this dispatch was 9913 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:779634461, this dispatch was 8395 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:780641629, this dispatch was 7168 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:781644471, this dispatch was 2842 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:782648465, this dispatch was 3994 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:783651996, this dispatch was 3531 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:784653408, this dispatch was 1412 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:785654706, this dispatch was 1298 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:786657961, this dispatch was 3255 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:787664834, this dispatch was 6873 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:788665819, this dispatch was 985 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:789675778, this dispatch was 9959 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:790682957, this dispatch was 7179 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:791690232, this dispatch was 7275 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:792695083, this dispatch was 4851 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:793697854, this dispatch was 2771 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:794700033, this dispatch was 2179 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:795700221, this dispatch was 188 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:796708319, this dispatch was 8098 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:797718105, this dispatch was 9786 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:798721779, this dispatch was 3674 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:799726720, this dispatch was 4941 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:800728417, this dispatch was 1697 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:801734146, this dispatch was 5729 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:802743754, this dispatch was 9608 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:803744968, this dispatch was 1214 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:804749575, this dispatch was 4607 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:805752168, this dispatch was 2593 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:806759232, this dispatch was 7064 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:807765633, this dispatch was 6401 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:808766805, this dispatch was 1172 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:809773682, this dispatch was 6877 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:810774731, this dispatch was 1049 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:811782971, this dispatch was 8240 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:812792590, this dispatch was 9619 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:813793885, this dispatch was 1295 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:814795556, this dispatch was 1671 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:815802839, this dispatch was 7283 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:816805333, this dispatch was 2494 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:817806511, this dispatch was 1178 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:818810568, this dispatch was 4057 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:819813947, this dispatch was 3379 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:820795509, this dispatch was 1038 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:821802997, this dispatch was 7488 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:822809903, this dispatch was 6906 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:823815692, this dispatch was 5789 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:824822203, this dispatch was 6511 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:825831188, this dispatch was 8985 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:826833417, this dispatch was 2229 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:827837927, this dispatch was 4510 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:828846599, this dispatch was 8672 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:829848755, this dispatch was 2156 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:830858106, this dispatch was 9351 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:831864727, this dispatch was 6621 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:832868864, this dispatch was 4137 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:833877723, this dispatch was 8859 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:834486355, this dispatch was 7735 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:835494999, this dispatch was 8644 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:836496352, this dispatch was 1353 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:837497404, this dispatch was 1052 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:838498702, this dispatch was 1298 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:839507479, this dispatch was 8777 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:840515308, this dispatch was 7829 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:841517555, this dispatch was 2247 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:842524472, this dispatch was 6917 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:843528173, this dispatch was 3701 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:844531615, this dispatch was 3442 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:845536455, this dispatch was 4840 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:846537339, this dispatch was 884 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:847539527, this dispatch was 2188 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:848545445, this dispatch was 5918 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:849546638, this dispatch was 1193 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:850396108, this dispatch was 1819 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:851399316, this dispatch was 3208 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+QUEUE:  Putting Process 2 into Queue 1
+CREATE: Generating process with PID 2 and putting it in queue 1 at time 1:852399316
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:852402154, this dispatch was 2838 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:853405107, this dispatch was 2953 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:854409643, this dispatch was 4536 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:855411029, this dispatch was 1386 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:856412754, this dispatch was 1725 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:857412928, this dispatch was 174 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:858419964, this dispatch was 7036 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:859429176, this dispatch was 9212 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:860434622, this dispatch was 5446 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+QUEUE:  Putting Process 3 into Queue 1
+CREATE: Generating process with PID 3 and putting it in queue 1 at time 1:861434622
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:861437460, this dispatch was 2838 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:862440413, this dispatch was 2953 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:863444949, this dispatch was 4536 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:864364331, this dispatch was 1386 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:865366056, this dispatch was 1725 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:866366230, this dispatch was 174 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:867373266, this dispatch was 7036 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:868382478, this dispatch was 9212 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:869387924, this dispatch was 5446 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:870396166, this dispatch was 8242 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:871399764, this dispatch was 3598 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:872402148, this dispatch was 2384 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:873407997, this dispatch was 5849 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:874412822, this dispatch was 4825 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:875418288, this dispatch was 5466 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:876424535, this dispatch was 6247 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:877424847, this dispatch was 312 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:878430403, this dispatch was 5556 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:879435783, this dispatch was 5380 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:880443285, this dispatch was 7502 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:881450246, this dispatch was 6961 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:882460058, this dispatch was 9812 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:883464572, this dispatch was 4514 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:884473601, this dispatch was 9029 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:885478220, this dispatch was 4619 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:886487196, this dispatch was 8976 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:887489136, this dispatch was 1940 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:888497225, this dispatch was 8089 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:889498190, this dispatch was 965 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:890506405, this dispatch was 8215 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:891513778, this dispatch was 7373 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:892517481, this dispatch was 3703 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:893503690, this dispatch was 1068 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:894511852, this dispatch was 8162 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:895513194, this dispatch was 1342 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:896522240, this dispatch was 9046 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:897530476, this dispatch was 8236 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:898535106, this dispatch was 4630 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:899539616, this dispatch was 4510 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:900549550, this dispatch was 9934 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:901552322, this dispatch was 2772 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:902556682, this dispatch was 4360 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:903565253, this dispatch was 8571 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:904573774, this dispatch was 8521 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:905582859, this dispatch was 9085 nanoseconds
+QUEUE:  Putting Process 1 into Queue 0
+RUN:    Dispatching process with PID 1 from queue 0 at time 1:906586796, this dispatch was 3937 nanoseconds
+END:    Process 1 ended after running for 0:987576602
+UNBLK:  Process 0 removed from the blocked queue(UNBLOCKED)
+RUN:    Dispatching process with PID 0 from queue 1 at time 1:1632107224, this dispatch was 1021 nanoseconds
+QUEUE:  Putting Process 0 into Queue 2
+RUN:    Dispatching process with PID 2 from queue 1 at time 1:1634112874, this dispatch was 5650 nanoseconds
+QUEUE:  Putting Process 2 into Queue 2
+RUN:    Dispatching process with PID 3 from queue 1 at time 1:1636118619, this dispatch was 5745 nanoseconds
+QUEUE:  Putting Process 3 into Queue 2
+RUN:    Dispatching process with PID 0 from queue 2 at time 1:1638121272, this dispatch was 2653 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 2 from queue 2 at time 1:1642124324, this dispatch was 3052 nanoseconds
+QUEUE:  Putting Process 2 into Queue 3
+RUN:    Dispatching process with PID 3 from queue 2 at time 1:1646126930, this dispatch was 2606 nanoseconds
+QUEUE:  Putting Process 3 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:1650129295, this dispatch was 2365 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 2 from queue 3 at time 1:1658136762, this dispatch was 7467 nanoseconds
+QUEUE:  Putting Process 2 into Queue 3
+RUN:    Dispatching process with PID 3 from queue 3 at time 1:1666144649, this dispatch was 7887 nanoseconds
+QUEUE:  Putting Process 3 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:1674147886, this dispatch was 3237 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 2 from queue 3 at time 1:1682150581, this dispatch was 2695 nanoseconds
+QUEUE:  Putting Process 2 into Queue 3
+RUN:    Dispatching process with PID 3 from queue 3 at time 1:1690156660, this dispatch was 6079 nanoseconds
+QUEUE:  Putting Process 3 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:1698164238, this dispatch was 7578 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+RUN:    Dispatching process with PID 2 from queue 3 at time 1:1706174150, this dispatch was 9912 nanoseconds
+QUEUE:  Putting Process 2 into Queue 3
+RUN:    Dispatching process with PID 3 from queue 3 at time 1:1714178345, this dispatch was 4195 nanoseconds
+QUEUE:  Putting Process 3 into Queue 3
+RUN:    Dispatching process with PID 0 from queue 3 at time 1:1722183196, this dispatch was 4851 nanoseconds
+QUEUE:  Putting Process 0 into Queue 3
+QUEUE:  Putting Process 1 into Queue 1
+CREATE: Generating process with PID 1 and putting it in queue 1 at time 1:1730183196
+RUN:    Dispatching process with PID 1 from queue 1 at time 2:730186034, this dispatch was 2838 nanoseconds
